@@ -4,7 +4,7 @@ import React from 'react';
 import { render } from 'react-dom';
 
 import { register } from './serviceWorker';
-import TestComponent from './TestComponent';
+import ChartComponent from './ChartComponent';
 
 // here we disable console and performance for better production experience
 // console.log(process.env.NODE_ENV);
@@ -16,7 +16,7 @@ import TestComponent from './TestComponent';
 
 const App = () => (
   <div styleName="a">
-    kek <TestComponent />
+    <ChartComponent />
   </div>
 );
 
